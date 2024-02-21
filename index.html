@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academia</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+
+
+
+
+
+</body>
+
+
+<div class="form-container">
+    <div class="form-header">
+    <p>MATRÍCULA</p>
+</div>
+
+<div class="form-body">
+<h1 class="form-title">Preencha os campos abaixo</h1>
+    
+
+
+    <div class="box-input">
+        <label for="nome"
+        >Nome completo<span class="required-field">*</span></label>
+    <input type="text" 
+    name="nome"
+    class="block" 
+       minlength="1"
+       maxlength="30"
+    required/>
+    
+    </div>
+
+
+    <div class="box-input">
+    <label for="price"
+    >CPF<span class="required-field">*</span></label>
+<input type="text" 
+name="title" class="block" 
+   required/>
+
+</div>
+
+<div class="box-input">
+    <label for="price"
+    >E-mail<span class="required-field">*</span></label>
+<input type="text" 
+name="title" class="block" 
+   required/>
+
+</div>
+
+
+
+
+
+<div class="box-input">
+    <label for="purchase_data"
+    >Data de Nascimento <span class="required-field">*</span></label>
+<input type="date" 
+name="purchase_data"
+id="purchase_data"
+class="block" 
+required/>
+</div>
+
+<div class="box-input">
+    <p> Tipo de plano: <span class="required-field">*</span> </p>
+
+    <input type="radio" name="plano" id="mensal">
+    <label for="mensal">Mensal</label>
+
+    <input type="radio" name="plano" id="anual">
+    <label for="anual">Anual</label>
+</div>
+
+<div class="opcional">
+    <p>Incluir:</p>
+
+    <div>
+        <input type="checkbox" id="ginastica" name="opcional[]" value="ginastica">
+        <label for="ginastica">Ginástica</label>
+    </div>
+
+    <div>
+        <input type="checkbox" id="danca" name="opcional[]" value="danca">
+        <label for="danca">Dança</label>
+    </div>
+
+    <div>
+        <input type="checkbox" id="crossfit" name="opcional[]" value="crossfit">
+        <label for="crossfit">Crossfit</label>
+    </div>
+</div>
+
+
+
+
+    <div class="forma-de-pagamento">
+        <p> Forma de pagamento: <span class="required-field">*</span> </p>
+    
+        <div>
+            <input type="radio" name="forma-pagamento" id="pix">
+            <label for="pix">Pix</label>
+        </div>
+    
+        <div>
+            <input type="radio" name="forma-pagamento" id="boleto">
+            <label for="boleto">Boleto</label>
+        </div>
+    
+        <div>
+            <input type="radio" name="forma-pagamento" id="cartao">
+            <label for="cartao">Cartão</label>
+        </div>
+    </div>
+    
+
+
+
+<input type="submit" value="Continuar" class="btn-submit"/>
+
+
+</div>
